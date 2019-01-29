@@ -1,42 +1,22 @@
 # Site settings
 # Site title
-title: Coming Soon
+title:       The answers you seek aren't here...
 
 # Site description
-description: A fancy description of the site
+description: Pardon, this page isn't available yet!
+
+# Site description
+build:       0.0.1
 
 # Site background
-background: "images/background.jpg"
+background:  "assets/bg1.mp4"
 
 # Site logo
-logo: "images/logo.png"
-
-# Countdown clock
-# (This can be commented out if not required.)
-countdown:
-  # format: "2013-09-25 16:00:00 +0800"
-  launch_date: 2025-01-01
-  # %d, %H, %M, %S available
-  format: "%d days, %H hours, %M minutes, %S seconds"
-
-# Mailing list subscription
-# (This can be commented out if not required.)
-subscribe:
-  action: "/thank-you"
-
-# Social media links
-# (This can be commented out if not required.)
-social:
-  facebook: "#"
-  twitter: "#"
-  google: "#"
-  instagram: "#"
-  pinterest: "#"
-  snapchat: "#"
-  linkedin: "in/#"
+logo:        "assets/logo.svg"
+logo-type:   "assets/logo-type.svg"
 
 # Build settings
-markdown: kramdown
+markdown:    kramdown
 
 # Exclude from processing.
 # The following items will not be processed, by default. Create a custom list
@@ -51,3 +31,8 @@ exclude:
    - vendor/ruby/
    - README.md
    - COPYING.txt
+
+sass:
+  style:     compressed
+svg:
+  optimize:  true

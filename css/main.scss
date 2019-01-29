@@ -1,0 +1,17 @@
+---
+# Only the main Sass file needs front matter (the dashes are enough)
+---
+@charset "utf-8";
+
+// Import Font for "default" '$base-font-family'
+@import url('https://fonts.googleapis.com/css?family=Josefin+Slab:100,300,400,600,700');
+
+// Helpers
+@import 'helpers/variables';
+// Base
+@import 'base/reset', 'base/base';
+// Utilities
+@import 'utilities/layout';
+// Components
+@import 'components/_video-background';
+// A list of variables can be found in _sass/base/_base.scss

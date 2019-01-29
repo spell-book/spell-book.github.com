@@ -1,0 +1,28 @@
+/* ==========================================================================
+   Variables
+   ========================================================================== */
+$base-font-family: "Josefin Slab", Helvetica Neue, Helvetica, sans-serif, !default;
+$base-font-size: 100% !default;
+$base-font-weight: 400 !default;
+$base-line-height: 1.25 !default;
+
+$heading-font-family: "Josefin Slab", Helvetica Neue, Helvetica, sans-serif, !default;
+$heading-font-weight: bold !default;
+$heading-line-height: 1.50 !default;
+
+$size-large: 10rem !default;
+$size-xlarge: 15rem !default;
+
+$text-color: #ffffff !default;
+$background-color: #282a36 !default;
+$primary-color: #44475a !default;
+
+$grey-color: #282a36 !default;
+$grey-color-light: lighten($grey-color, 40%) !default;
+$grey-color-dark: darken($grey-color, 25%) !default;
+
+$logo-height: 300px !default;
+$content-width: 720px !default;
+$content-min-margin: 0.65rem !default;
+
+$large-box-width: 780px !default;

@@ -1,1 +1,17 @@
-<!-- Include additional head content here -->
+<html>
+
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta property="og:title" content="{{ site.title }}" />
+  <meta name="description" content="{{ site.description }}" />
+  <meta property="og:description" content="{{ site.description }}" />
+
+  <link href="{{ "/css/main.css" | prepend: site.baseurl }}?{{site.build}}" rel="stylesheet">
+
+  <link rel="shortcut icon" type="image/png" href="assets/favicon.ico">
+
+  {% include preload.html %}
+
+  <title>{{ site.title }}</title>
+</head>

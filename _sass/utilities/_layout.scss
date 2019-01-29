@@ -1,0 +1,96 @@
+/* ==========================================================================
+   Layout
+   ========================================================================== */
+.container {
+  position: absolute;
+  right: 0;
+  bottom: 0;
+  left: 0;
+  top: 0;
+  align-items: center;
+  justify-content: center;
+  display: flex;
+}
+
+.wrapper {
+  margin: 0 $content-min-margin;
+  position: relative;
+  height: 100%;
+  width: 100%;
+  text-align: center;
+  @media screen and (min-width: $large-box-width), print {
+    margin: 0 auto;
+    width: $content-width;
+  }
+}
+
+.section {
+  hr {
+    color: $text-color;
+  }
+
+  .shadow {
+    /* Use -webkit- only if supporting: Chrome < 54, iOS < 9.3, Android < 4.4.4 */
+    -webkit-filter: drop-shadow(0px -2px 3px $text-color);
+    filter: drop-shadow(0px -2px 3px $text-color);
+  }
+}
+
+.header {
+  padding-top: 1.5rem;
+
+  .logo {
+    width: auto;
+    height: auto;
+  }
+
+  img {
+    display: block;
+    max-height: $logo-height;
+    width: auto;
+    height: auto;
+    margin: 0 auto;
+  }
+}
+
+.main {
+  .content {
+    blockquote,
+    ol,
+    p,
+    ul {
+      font-size: $size-xlarge;
+    }
+  }
+
+  img.gif {
+    box-shadow: 0 0 40px #ccc;
+    -moz-box-shadow: 0 0 40px #ccc;
+    -webkit-box-shadow: 0 0 40px #ccc;
+    border-radius: 25px;
+  }
+
+  .hr1 {
+    width: 74%;
+    margin: -.2rem 13% 0.5rem;
+  }
+
+  .hr2 {
+    width: 90%;
+    margin: -.6rem 5% 1rem;
+  }
+}
+
+.footer {
+  .logo-type {
+    padding: 0.5rem;
+  }
+
+  img {
+    display: block;
+    max-height: $logo-height;
+    width: 80%;
+    height: auto;
+    margin: 0 auto;
+  }
+}

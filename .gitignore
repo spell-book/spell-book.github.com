@@ -6,3 +6,7 @@ Gemfile.lock
 
 # Jekyll output files
 _site/
+
+# Local setup files
+/vendor
+/.bundle

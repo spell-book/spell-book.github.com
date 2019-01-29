@@ -1,0 +1,119 @@
+/* ==========================================================================
+   Base
+   ========================================================================== */
+html {
+  background-color: $background-color;
+  font-size: $base-font-size;
+  -moz-osx-font-smoothing: grayscale;
+  -webkit-font-smoothing: antialiased;
+  min-width: 300px;
+  overflow-x: hidden;
+  overflow-y: scroll;
+}
+
+body,
+button,
+input,
+select,
+textarea {
+  font-family: $base-font-family;
+}
+
+body {
+  color: $text-color;
+  font-size: 130%;
+  font-weight: $base-font-weight;
+  line-height: $base-line-height;
+}
+
+footer,
+header,
+section {
+  display: block;
+}
+
+a {
+  color: $primary-color;
+  text-decoration: none;
+}
+
+small {
+  font-size: 0.875em;
+}
+
+em {
+  font-style: italic;
+}
+
+strong {
+  font-weight: bold;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+  font-family: $heading-font-family;
+  font-weight: $heading-font-weight;
+  line-height: $heading-line-height;
+}
+
+h1 {
+  font-size: 2.25em;
+  margin-bottom: 0.25em;
+
+  &:not(:first-child) {
+    margin-top: 1em;
+  }
+}
+
+h2 {
+  font-size: 1.5em;
+  margin-bottom: 0.5714em;
+}
+
+h3 {
+  font-size: 1.25em;
+}
+
+h4 {
+  font-size: 1.125em;
+  margin-bottom: 0.8em;
+}
+
+h5 {
+  font-size: 1em;
+  margin-bottom: 0.8888em;
+}
+
+h6 {
+  font-size: 0.75em;
+  margin-bottom: 1em;
+}
+
+blockquote {
+  padding: 1.25em 1.5em;
+}
+
+ol {
+  list-style: decimal outside;
+  margin-left: 2em;
+  margin-top: 1em;
+}
+
+ul {
+  list-style: square outside;
+  margin-left: 2em;
+  margin-top: 1em;
+
+  ul {
+    list-style-type: circle;
+    margin-top: 0.5em;
+
+    ul {
+      list-style-type: disc;
+    }
+  }
+}

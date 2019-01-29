@@ -1,0 +1,23 @@
+/* ==========================================================================
+   Video Background
+   ========================================================================== */
+#Video {
+  position: absolute;
+  top: 0;
+  left: 0;
+  pointer-events: none;
+  min-width: 100%;
+  min-height: 100%;
+  z-index: -1;
+}
+
+.overlay {
+  min-width: 100%;
+  min-height: 100%;
+  position: absolute;
+  top: 0;
+  left: 0;
+  z-index: 0;
+  background: #44475a;
+  opacity: 0.25;
+}
